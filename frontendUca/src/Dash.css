@@ -1,0 +1,32 @@
+.paddingAll{
+    padding: 10px;
+}
+.pricetitle{
+    font-weight: 600;
+}
+.pricesubtitle{
+    font-size: 14px;
+}
+.iconstyle{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.iconstyleblack{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.gradient{
+    color: rgb(40,30,70);
+    background: linear-gradient(158deg,rgba(40,30,70,1) 0%,rgba(30,47,141,1) 100%);
+}
+.gradientlight{
+    color: black;
+    background: linear-gradient(158deg,rgba(217, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.65) 100%);
+}
+.bgcolordash{
+    min-height: 100vh;
+    background: #909d9e;
+    background: linear-gradient(158deg,rgba(244,244,244) 0%,rgb(233,237,254) 100%);
+
+}

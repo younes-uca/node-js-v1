@@ -1,0 +1,90 @@
+.header-info{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 60px;
+    color: rgb(192,166,111);
+}
+.texts-info{
+    font-size: 15px;
+}
+.intro-info{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.cotis-title{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 40px;
+    color: #9F470E;
+}
+.cotis-info{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.frais-title{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 40px;
+    color: rgb(192,166,111);
+}
+.tableFrais{
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 50px;
+}
+.thead-frais{
+    background-color: #dab688;
+    color: #ffffff;
+    font-weight: bold;
+}
+.td-frais{
+    font-size: 20px;
+}
+.thead-frais,
+.td-frais{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.parag-cotis{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.acces-title{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 50px;
+    color: #9F470E;
+}
+.info-btn{
+    margin-top: 16px;
+    background-color: #9F470E;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    margin-left: 280px;
+}
+.info-btn:hover{
+    background-color: #ffffff;
+    color:#9F470E;
+    border: 1px solid #9F470E;
+}
+.activite-btn{
+    margin-top: 16px;
+    background-color: #9F470E;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    margin-left: 670px;
+}
+.activite-btn:hover{
+    background-color: #ffffff;
+    color:#9F470E;
+    border: 1px solid #9F470E;
+}

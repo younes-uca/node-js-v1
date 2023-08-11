@@ -1,0 +1,94 @@
+.logTitre{
+    font-size: 60px;
+    color: #9F470E;
+    font-weight: 600;
+}
+.chambre{
+    font-size: 40px;
+    color: #c99552;
+    font-weight: 400;
+    text-align: center;
+}
+.paragrapheLog{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.textLog{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+.tableLog {
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 50px;
+
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #dab688;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td {
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+.titreTab{
+    text-align: center;
+    font-size: 50px;
+    color: #9F470E;
+    font-weight: 400;
+}
+.tdTab{
+    color: #c99552;
+    font-size: 20px;
+}
+.prixLog{
+    font-size: 19px;
+}
+.tarifsLog{
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.tarifBtn{
+    border-radius: 3rem;
+    background-color: rgb(192,166,111);
+    color: #fff;
+    border-color: rgb(192,166,111);
+    text-decoration: none;
+
+}
+.tarifBtn:hover{
+    background-color: #fff;
+    color: rgb(192,166,111);
+    border: 1px solid rgb(192,166,111);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.imgSite {
+    height: 480px; /* Permet de conserver le ratio d'aspect */
+}

@@ -1,0 +1,9 @@
+.rbc-selected-cell {
+    background-color: blue;
+    color: white;
+}
+
+.rbc-reserved-event {
+    background-color: red;
+    color: white;
+}

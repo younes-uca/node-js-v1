@@ -1,0 +1,126 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+.bodyPrf{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.containerPrf{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin-top: 70px;
+    background-color: #fff;
+    left: 350px;
+}
+.containerPrf .headPrf{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #c99552;
+}
+.containerPrf .formPrf{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.containerPrf .formPrf .form1{
+    position: absolute;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+.containerPrf .formPrf .titlePrf{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+}
+.containerPrf .formPrf .fieldsPrf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.formPrf .fieldsPrf .inputs-fieldPrf{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.inputs-fieldPrf .labelPrf{
+    font-size: 14px;
+    font-weight: 600;
+    color: #9F470E;
+}
+.inputs-fieldPrf .inputPrf{
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F470E;
+    border-radius: 5px;
+    border: 1px solid #c99552;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.inputs-fieldPrf .inputPrf::placeholder{
+    color: #c99552;
+}
+.inputs-fieldPrf .inputPrf:focus {
+    border-color: #9F470E !important;
+}
+.inputs-fieldPrf .inputPrf[type="date"]{
+    color: #c99552;
+}
+.inputs-fieldPrf .inputPrf[type="date"]:valid{
+    color: #9F470E;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(51%) sepia(50%) saturate(5455%) hue-rotate(15deg) brightness(98%) contrast(88%);
+}
+
+@media (max-width: 750px) {
+    .containerPrf .formPrf{
+        overflow-y: scroll;
+    }
+    .containerPrf .formPrf::-webkit-scrollbar{
+        display: none;
+    }
+    .formPrf .fieldsPrf .inputs-fieldPrf{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    .formPrf .fieldsPrf .inputs-fieldPrf{
+        width: 100%;
+    }
+}
+.btnPrf{
+    border-radius: 3rem;
+    background-color: #c99552;
+    color: #fff;
+    border-color: #c99552;
+    text-decoration: none;
+
+}
+.btnPrf:hover{
+    background-color: #fff;
+    color: #c99552;
+    border: 1px solid #c99552;
+}
+
+.btnPrfContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+

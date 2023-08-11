@@ -1,0 +1,17 @@
+.header-salle{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 60px;
+    color: rgb(192,166,111);
+}
+.salle-info{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.span-salle{
+    color: rgb(192,166,111);
+}
+.imgSalle{
+    height: 500px;
+}

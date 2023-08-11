@@ -1,0 +1,9 @@
+.adherent-list-container {
+    margin: 0 auto; /* Centrer horizontalement la div */
+    max-width: 1100px; /* Largeur maximale de la div */
+    padding: 20px; /* Ajouter un espacement intérieur */
+    border-radius: 10px;
+}
+.adherent-list-title{
+    font-family: "Baskerville Old Face", serif;
+}

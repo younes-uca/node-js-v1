@@ -1,0 +1,165 @@
+.header-actualite{
+    color:  darkred;
+}
+
+.actualite-form-container {
+    max-width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: linear-gradient(158deg,rgba(244,244,244) 0%,rgb(233,237,254) 100%);
+    padding-top: 80px;
+    box-shadow: 0 7px 25px #737d7e;
+}
+
+.actualite-form-container label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.actualite-form-container .input-actualite,
+.actualite-form-container .text-area-actualite {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.actualite-form-container .input-actualite:focus,
+.actualite-form-container .text-area-actualite:focus{
+    box-shadow: 0 7px 25px #737d7e;
+    outline: none;
+}
+.actualite-form-container .text-area-actualite{
+    resize: vertical;
+    rows: 5;
+}
+.list-btn{
+    padding-left: 10px;
+}
+
+.actualite-form-container .post-btn {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.actualite-form-container .post-btn:hover {
+    background-color: #ffffff;
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+.actualite-modal-form-container{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: white;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.modal-title-actualite{
+    color:  #737d7e;
+    font-weight: bold;
+}
+.modal-contenu-actualite label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.actualite-modal-form-container .input-modal-actualite,
+.actualite-modal-form-container .textarea-modal-actualite {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.actualite-modal-form-container .input-modal-actualite:focus,
+.actualite-modal-form-container .textarea-modal-actualite:focus {
+    box-shadow: 1px 7px 12px 6px #737d7e;
+    -webkit-box-shadow: 1px 7px 12px 6px #737d7e;
+    -moz-box-shadow: 1px 7px 12px 6px #737d7e;
+    outline: none;
+}
+.actualite-modal-form-container .btn-enregistrer{
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #737d7e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.actualite-modal-form-container .btn-annuler{
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.actualite-modal-form-container .btn-enregistrer:hover{
+    background-color: #ffffff;
+    color: #CFA486;
+    border: 1px solid #CFA486;
+}
+.actualite-modal-form-container .btn-annuler:hover{
+    background-color: #ffffff;
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+
+.table-actualite {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.table .table-header-actualite{
+    background-color: #737d7e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    font-family: Serif, sans-serif;
+}
+.table .td-actualite{
+    padding: 10px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    max-width: 200px;
+}
+.btn-table-edit{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-table-delete{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+

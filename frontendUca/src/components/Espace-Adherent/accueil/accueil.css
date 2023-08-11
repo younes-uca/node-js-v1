@@ -1,0 +1,106 @@
+.cardBox {
+    position: relative;
+    width: calc(100% - 600px);
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    left: 285px;
+}
+
+.cardBox .card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px #dab688;
+}
+
+.cardBox .card .cardName {
+    color: #c99552;
+    font-size: 35px;
+    margin-top: 5px;
+    text-align: center;
+   padding-bottom: 20px;
+}
+
+.cardBox .card .iconBx {
+    font-size: 35px;
+    color: #c99552;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cardBox .card:hover {
+    background:#c99552;
+}
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBx {
+    color: #ffffff;
+}
+.cardBox2{
+    position: relative;
+    width: calc(100% - 600px);
+    padding: 0;
+    display: flex;
+    left: 460px;
+    margin-top: 60px;
+}
+.card2 {
+    position: relative;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 7px 25px #dab688;
+}
+
+.titreAc{
+  padding-left: 750px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #c99552;
+}
+.cardText {
+    color: #9f470e;
+    font-size: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.actualite{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.card-title-actualite {
+    color: #9f470e;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.noActualite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color: #9F470E;
+}

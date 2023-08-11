@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.fontfam{
+    font-family: 'Baskerville Old Face', sans-serif;
+}
+.spanTitle{
+    font-family: 'Baskerville Old Face', sans-serif;
+    color: rgb(192,166,111);
+}
+.headCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-item{
+    height: 700px;
+}
+.c-img{
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.headerCaption .rowLog .logCol .headBtn{
+    border-radius: 3rem;
+    background-color: rgb(192,166,111);
+    color: #fff;
+    border-color: rgb(192,166,111);
+}
+.headerCaption .rowLog .logCol .headBtn:hover{
+    background-color: #fff;
+    color: rgb(192,166,111);
+    border: 1px solid rgb(192,166,111);
+}
+.animate_animated.animate_rotateOut {
+    --animate-duration: 2s;
+}
+.animate_animated.animate_rotateIn {
+    --animate-duration: 2s;
+}
+.animate_animated.animate_flip {
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+.imgHead2{
+    height: 1000px;
+}

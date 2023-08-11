@@ -1,0 +1,47 @@
+.logTitre{
+    font-size: 60px;
+    color: #9F470E;
+    font-weight: 600;
+}
+.chambre{
+    font-size: 40px;
+    color: #c99552;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase
+}
+.paragrapheLog{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.textLog{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+.tarifBtn{
+    border-radius: 3rem;
+    background-color: rgb(192,166,111);
+    color: #fff;
+    border-color: rgb(192,166,111);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.tarifBtn:hover{
+    background-color: #fff;
+    color: rgb(192,166,111);
+    border: 1px solid rgb(192,166,111);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.motPis{
+    color: #c99552;
+    font-size: 18px;
+}

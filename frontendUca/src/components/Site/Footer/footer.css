@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.footerUca{
+    margin-top: auto;
+}
+.textFooter{
+    color: rgb(159,71,14);
+    font-size: 60px;
+    font-family: "Arial Rounded MT Bold", serif;
+    text-align: center;
+}
+.textFooter .subFooter{
+    color: black;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+.titlefooter{
+    font-family: "Arial Rounded MT Bold", serif;
+    color: rgb(159,71,14);
+    font-size: 40px;
+}
+.rowFooter .colFooter .iconFooter{
+    color: rgb(159,71,14);
+}
+.smallFooter{
+    padding-top: 100px;
+}
+.rowFooter .colFooter .paragFooter{
+    cursor: pointer;
+}
+.rowFooter .colFooter .paragFooter:hover{
+    color: rgb(192,166,111);
+    font-size: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.smallFooter,.strongFooter{
+    color: rgb(159, 71, 14);
+}
+.gridFooter .footerLink{
+    text-decoration: none;
+    color: black;
+}
+.gridFooter .footerLink:hover{
+    color: rgb(192,166,111);
+    font-size: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.colFooter .footerLink{
+    text-decoration: none;
+    color: black;
+}
+.colFooter .footerLink:hover{
+    color: rgb(192,166,111);
+    font-size: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}

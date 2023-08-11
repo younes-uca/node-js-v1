@@ -1,0 +1,47 @@
+.listeFamille{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.listeFamille .famille{
+    position: relative;
+    display: grid;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px;
+    margin-top: 200px;
+    background-color: #fff;
+    left: 390px;
+    box-shadow: 0 0 25px #dab688;
+    border-radius: 20px;
+}
+.h2Famille{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #c99552;
+}
+.listeFamille .tableFml{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableFml {
+    margin-top: 50px;
+}
+.tableFml .theadFml .tdFml{
+    font-weight: 600;
+    font-size: 18px;
+    color: #9F470E;
+    text-align: center;
+}
+.tableFml .tbodyFml .tdFml{
+    font-weight: 300;
+    font-size: 17px;
+    color: saddlebrown;
+    text-align: center;
+    padding: 19px;
+}
+

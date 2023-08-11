@@ -1,0 +1,85 @@
+.header-contact{
+    color:  darkred;
+    font-size: 60px;
+}
+.table-contact{
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.table-contact .table-header-contact{
+    background-color: #737d7e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    font-family: Serif, sans-serif;
+}
+.td-contact{
+    padding: 10px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    max-width: 200px;
+}
+.btn-table-response{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.modal-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content-contact{
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-response{
+    color:  #737d7e;
+    font-weight: bold;
+    text-align: center;
+}
+.parag-response{
+    font-weight: bold;
+    text-align: center;
+    color:  darkred;
+}
+.textarea-contact{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.textarea-contact:focus{
+    box-shadow: 1px 7px 12px 6px #737d7e;
+    outline: none;
+}
+.modal-button-response .btn-modal-mail{
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #737d7e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.modal-button-response .btn-modal-close{
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+}

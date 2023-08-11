@@ -1,0 +1,78 @@
+.topbarEs {
+    position: absolute;
+    background: #fff;
+    width: calc(100% - 300px)!important;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    transition: 0.5s;
+    left: 300px;
+}
+.topbarEs.active{
+    width: calc(100% - 110px);
+    left: 110px;
+}
+
+.toggleEs {
+    position: relative;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+.toggleEs .barsNavEA{
+    color: #9F470E;
+}
+.searchEs{
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
+}
+.searchEs .labelNavEa{
+    position: relative;
+    width: 100%;
+}
+.searchEs .labelNavEa .inputNavEa{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left: 35px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #c99552;
+}
+.searchEs .labelNavEa .inputNavEa::placeholder{
+    color: #c99552;
+}
+.searchEs .labelNavEa .searchEa{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #9F470E;
+}
+.userEa{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.userEa .imgNavEa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
